@@ -30,10 +30,25 @@
     border: 10px solid goldenrod;
     min-height: 100vh;
     /*flex-direction: row;*/
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 
 .box {
     width: 33.3333333%;
+}
+
+.container {
+    display:flex;
+}
+
+.box {
+    flex:1;
+}
+
+.box3 {
+    order:1;
+}
+
+.box7 {
+    order:2;
 }
